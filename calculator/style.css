@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+main {
+    height: 100vh;
+    background: linear-gradient(135deg, red, #54c0c6);
+    display: flex;
+    justify-content: center;
+}
+.calculator {
+    position: relative;
+    top: 3rem;
+    height: 70vmin;
+    width: 55vmin;
+    border: 2vmin solid #333333;
+    border-top: 10vmin solid #333333;
+    background-color: #333333;
+    border-radius: 1.1rem;
+}
+
+.screen-outer {
+    height: 18%;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen {
+    height: 100%;
+    width: 95%;
+    background-color: rgb(215, 207, 192);
+    border-radius: 1.1rem;
+    font-weight: 800;
+    font-size: 9vmin;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons {
+    height: 80%;
+    width: 100%;
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-items: center;
+    border-bottom-right-radius: 1.1rem;
+    border-bottom-left-radius: 1.1rem;
+}
+
+.button {
+    height: 80%;
+    width: 80%;
+    border-radius: .9rem;
+    cursor: pointer;
+    font-size: 4.8vmin;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+#ac {
+    color: orange;
+}
+
+#del {
+    color: orange;
+}
+
+#percent {
+    color: orange;
+}
+
+#divide {
+    color: orange;
+}
+
+#cross {
+    color: orange;
+}
+
+#minus {
+    color: orange;
+}
+
+#plus {
+    color: orange;
+}
+
+#equals {
+    background-color: orange;
+}
+
+#equals:hover {
+    background-color: rgb(255, 187, 60);
+}
+
+.button:hover {
+    background-color: rgb(125, 125, 125);
+}
+
+@media only screen and (max-width: 520px) {
+    .calculator {
+        border-top: 15vmin solid #333333;
+        top: 15vmax;
+        height: 95vmin;
+        width: 75vmin;
+    }
+
+    .screen {
+        font-size: 12vmin;
+    }
+
+    .button {
+        font-size: 6.5vmin;
+    }
+}
