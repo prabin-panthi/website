@@ -1,14 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>youtube</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Prabin portfolio website.">
+    <title>Prabin's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>If you want to see AMAZON CLONE, then click <a href="amazon project\amazon.html">HERE</a></h1>
-    <h1>If you want to play TIC TAC TOE, then click <a href="tic tac toe/tic.html">HERE</a></h1>
-    <h1>If you want to use CALCULATOR, then click <a href="calculator/calculator.html">HERE</a></h1>
-    <h1>If you want to predict DIGIT, then click <a href="https://prabin-handwriting-recognition.onrender.com/">HERE</a></h1>
+    <nav>
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul id="navMenu">
+            <li>PRABIN'S Portfolio</li>
+            <li><a href="#" id="home-btn">Home</a></li>
+            <li id="project_nav">Projects <i class="fa-solid fa-caret-down"></i>
+                <ul class="dropdown">
+                    <li><a href="https://www.prabinpanthi.com.np/amazon%20project/amazon.html" target="_blank"
+                            rel="noopener noreferrer">Amazon Clone</a></li>
+                    <li><a href="https://www.prabinpanthi.com.np/tic%20tac%20toe/tic.html" target="_blank"
+                            rel="noopener noreferrer">Tic Tac Toe</a></li>
+                    <li><a href="https://www.prabinpanthi.com.np/calculator/calculator.html" target="_blank"
+                            rel="noopener noreferrer">Calculator</a></li>
+                    <li><a href="https://prabin-handwriting-recognition.onrender.com/" target="_blank"
+                            rel="noopener noreferrer">Digit Prediction</a></li>
+                    <li><a href="https://prabin-avenger-text-prediction.onrender.com/" target="_blank"
+                            rel="noopener noreferrer">Text Predictor</a></li>
+                    <li><a href="https://prabin-movie-recommendation.onrender.com/" target="_blank"
+                            rel="noopener noreferrer">Movie Recommender</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact" id="contact-btn">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="top-div">
+            <div class="intro">
+                <h1>Hello, my name is Prabin.</h1>
+                <p>
+                    I am a Student currently pursuing Bachelor of Computer Engineering in Pashchimanchal Campus,
+                    Pokhara. A few projects/code are deployed which can be viewed by visiting the Live links from
+                    Nav-bar. Other projects/code can be viewed visiting github link.
+                </p>
+                <button id="github-btn" onclick="window.open('https://github.com/prabin-panthi')">Visit Github</button>
+                <button id="linkedin-btn" onclick="window.open('https://www.linkedin.com/in/prabin-panthi-4b3302306/')"">Visit LinkedIn</button>
+            </div>
+            <div class=" pic">
+                    <img src="hero-img.png" alt="Dev. Image">
+            </div>
+        </div>
+        <div class="projects-div">
+            <div class="heading">
+                <p>My Works</p>
+            </div>
+            <div class="button-div">
+                <button class="project-btn" id="all">All</button>
+                <button class="project-btn" id="web">Web Design</button>
+                <button class="project-btn" id="ml">Machine Learning</button>
+                <button class="project-btn" id="dl">Deep Learning</button>
+            </div>
+            <div class="tiles-div">
+                <div class="tile web">
+                    <img src="tictactoe.png" alt="tictactoe">
+                    <p>Tic Tac Toe</p>
+                    <a href="https://github.com/prabin-panthi/Tic-Tac-Toe" target="_blank" rel="noopener noreferrer">Visit Github Repository</a>
+                </div>
+                <div class="tile web">
+                    <img src="amazon.png" alt="amazon">
+                    <p>Amazon clone</p>
+                    <a href="https://github.com/prabin-panthi/Amazon-clone" target="_blank" rel="noopener noreferrer">Visit Github Repository</a>
+                </div>
+                <div class="tile dl">
+                    <img src="digit predict.png" alt="digitpredict">
+                    <p>Digit Predict using CNN</p>
+                    <a href="https://github.com/prabin-panthi/MNIST-Web-App" target="_blank" rel="noopener noreferrer">Visit Github Repository</a>
+                </div>
+                <div class="tile web">
+                    <img src="calculator.png" alt="calculator">
+                    <p>Calculator</p>
+                    <a href="https://github.com/prabin-panthi/Calculator" target="_blank" rel="noopener noreferrer">Visit Github Repository</a>
+                </div>
+                <div class="tile ml">
+                    <img src="movie recommend.png" alt="movierecommend">
+                    <p>Movie Recommend/NLP</p>
+                    <a href="https://github.com/prabin-panthi/Movie-Recommendation-Web-App" target="_blank" rel="noopener noreferrer">Visit Github Repository</a>
+                </div>
+                <div class="tile dl">
+                    <img src="text predict.png" alt="digitpredict">
+                    <p>Text Predict using RNN</p>
+                    <a href="https://github.com/prabin-panthi/RNN-Web-App" target="_blank" rel="noopener noreferrer">Visit Github Repository</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="text">Contacts: </div>
+        <div id="contact">
+            <button class="social-btn" onclick="window.open('https://www.facebook.com/panthiprabin')"><i
+                    class="fa-brands fa-facebook"></i></button>
+            <button class="social-btn" onclick="window.open('https://www.instagram.com/panthi_prabin/')"><i
+                    class="fa-brands fa-instagram"></i></button>
+            <button class="social-btn" onclick="window.open('https://www.linkedin.com/in/prabin-panthi-4b3302306/')"><i
+                    class="fa-brands fa-linkedin"></i></button>
+            <a class="social-btn" href="mailto:prabinpanthi33@gmail.com"><i class="fa-solid fa-at"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
