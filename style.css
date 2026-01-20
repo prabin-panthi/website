@@ -187,7 +187,7 @@ nav>ul>li:not(:first-child)>a:hover {
     display: grid;
     grid-template-columns: 5fr 5fr;
     background-color: #0e312e;
-    background-image: url(yellow-bg.png);
+    background-image: url(images/yellow-bg.png);
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -197,9 +197,28 @@ nav>ul>li:not(:first-child)>a:hover {
     top: 120px;
     right: 140px;
     height: 50%;
+    animation: heroAnimation 8s ease-in-out 3s infinite alternate;
 }
 
+@keyframes heroAnimation {
+    0% {}
 
+    20% {
+        transform: translateX(1%);
+    }
+
+    50% {
+        transform: translateX(2%) translateY(2%);
+    }
+
+    80% {
+        transform: rotate(2deg) translateX(1%) translateY(2%);
+    }
+
+    100% {
+        transform: rotate(-3deg) translateX(2%) translateY(2%);
+    }
+}
 
 .intro {
     padding: 120px 10px 0px 80px;
