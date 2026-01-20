@@ -187,7 +187,7 @@ nav>ul>li:not(:first-child)>a:hover {
     display: grid;
     grid-template-columns: 5fr 5fr;
     background-color: #0e312e;
-    background-image: url(_images_yellow-bg.png);
+    background-image: url(yellow-bg.png);
     background-repeat: no-repeat;
     background-position: right top;
 }
