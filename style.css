@@ -575,7 +575,7 @@ footer {
         display: flex;
         flex-direction: column;
         background-color: #0e312e;
-        background-image: url(_images_yellow-bg.png);
+        background-image: url(images/yellow-bg.png);
         background-repeat: no-repeat;
         background-position: right top;
         background-size: contain;
