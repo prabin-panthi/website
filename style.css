@@ -12,7 +12,7 @@ nav {
     z-index: 1;
     top: 0px;
     height: 80px;
-    background: linear-gradient(to right, #34CB88 0%, rgb(211, 247, 249, 0.7) 50%, rgb(211, 247, 249, 0.4) 60%, rgb(253, 196, 53, 0.5) 70%, rgba(253, 196, 53, 1) 100%);
+    background: linear-gradient(to right, #34CB88 0%, rgb(211, 247, 249, 0.7) 50%, rgb(211, 247, 249, 0.6) 60%, rgb(253, 196, 53, 0.85) 70%, rgba(253, 196, 53, 1) 100%);
 }
 
 
@@ -197,26 +197,26 @@ nav>ul>li:not(:first-child)>a:hover {
     top: 120px;
     right: 140px;
     height: 50%;
-    animation: heroAnimation 8s ease-in-out 3s infinite alternate;
+    animation: heroAnimation 15s ease-in-out 1s infinite alternate;
 }
 
 @keyframes heroAnimation {
     0% {}
 
     20% {
-        transform: translateX(1%);
+        transform: translateX(1%) scale(1.02);
     }
 
     50% {
-        transform: translateX(2%) translateY(2%);
+        transform: translateX(1%) translateY(1%);
     }
 
     80% {
-        transform: rotate(2deg) translateX(1%) translateY(2%);
+        transform: rotate(1deg) translateX(-1%) translateY(-1%);
     }
 
     100% {
-        transform: rotate(-3deg) translateX(2%) translateY(2%);
+        transform: rotate(-1deg) translateX(1%) translateY(1%);
     }
 }
 
