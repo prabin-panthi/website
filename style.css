@@ -12,7 +12,7 @@ nav {
     z-index: 1;
     top: 0px;
     height: 80px;
-    background: linear-gradient(to right, #34CB88 0%, rgb(211, 247, 249, 0.7) 50%, rgb(211, 247, 249, 0.6) 60%, rgb(253, 196, 53, 0.85) 70%, rgba(253, 196, 53, 1) 100%);
+    background: linear-gradient(to right, #34CB88 0%, rgb(211, 247, 249, 0.7) 50%, rgb(211, 247, 249, 0.6) 56%, rgb(253, 196, 53, 0.85) 62%, rgba(253, 196, 53, 1) 100%)
 }
 
 
@@ -197,7 +197,7 @@ nav>ul>li:not(:first-child)>a:hover {
     top: 120px;
     right: 140px;
     height: 50%;
-    animation: heroAnimation 15s ease-in-out 1s infinite alternate;
+    animation: heroAnimation 15s linear 1s infinite alternate;
 }
 
 @keyframes heroAnimation {
@@ -345,8 +345,9 @@ nav>ul>li:not(:first-child)>a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 350px;
-    width: 300px;
+    height: 450px;
+    width: 330px;
+    flex-shrink: 0;
     padding: 10px;
     background: linear-gradient(45deg, #9BCD56, #BFB220);
     border: 3px solid #438983;
@@ -355,13 +356,14 @@ nav>ul>li:not(:first-child)>a:hover {
 }
 
 .tile img {
-    height: 80%;
-    width: auto;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
 .tile>p {
     font-family: "Poppins", sans-serif;
+    text-align: center;
     color: #1A4C41;
     font-size: 22px;
     font-weight: 600;
@@ -610,6 +612,11 @@ footer {
         height: auto;
         max-width: auto;
         max-height: 240px;
+    }
+
+    .tile {
+        height: 420px;
+        width: 300px;
     }
 
     #github-btn,
