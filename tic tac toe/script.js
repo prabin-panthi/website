@@ -102,6 +102,7 @@ reset.addEventListener("click", () => {
 });
 
 const musicBtn = document.querySelector(".musicBtn");
+const musicToggleBtn = document.getElementById("musicToggleBtn");
 const backgroundMusic = document.getElementById("backgroundMusic");
 
 let musicPlaying = false;
@@ -109,12 +110,13 @@ let musicPlaying = false;
 musicBtn.addEventListener("click", () => {
   if (musicPlaying) {
     backgroundMusic.pause();
-    musicToggleBtn.classList.remove("fa-solid", "fa-volume-xmark");
-    musicToggleBtn.classList.add("fa-solid", "fa-volume-high");
+    backgroundMusic.currentTime = 0;
+    musicToggleBtn.classList.add("fa-volume-xmark");
+    musicToggleBtn.classList.remove("fa-volume-high");
   } else {
     backgroundMusic.play();
-    musicToggleBtn.classList.remove("fa-solid", "fa-volume-high");
-    musicToggleBtn.classList.add("fa-solid", "fa-volume-xmark");
+    musicToggleBtn.classList.add("fa-volume-high");
+    musicToggleBtn.classList.remove("fa-volume-xmark");
   }
   musicPlaying = !musicPlaying;
 });
