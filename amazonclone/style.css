@@ -29,7 +29,7 @@ html {
 .logo {
     height: 40px;
     width: 100%;
-    background-image: url(amazon\ logo.png);
+    background-image: url(images/amazon\ logo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -215,7 +215,7 @@ input {
     height: 600px;
     margin-left: 85px;
     margin-right: 85px;
-    background-image: url(hero.jpg);
+    background-image: url(images/hero.jpg);
     background-size: cover;
     -webkit-mask-image: linear-gradient(#ffffff 35%, rgba(0,0,0,0));
     mask-image: linear-gradient(#ffffff 35%, rgba(0,0,0,0));
@@ -255,7 +255,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(headphone.jpg);
+    background-image: url(images/headphone.jpg);
     background-repeat: no-repeat;
 }
 
@@ -263,7 +263,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(keyboard.jpg);
+    background-image: url(images/keyboard.jpg);
     background-repeat: no-repeat;
 }
 
@@ -271,7 +271,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(mouse.jpg);
+    background-image: url(images/mouse.jpg);
     background-repeat: no-repeat;
 }
 
@@ -279,7 +279,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(chair.jpg);
+    background-image: url(images/chair.jpg);
     background-repeat: no-repeat;
 }
 
@@ -306,7 +306,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(spray.jpg);
+    background-image: url(images/spray.jpg);
     background-repeat: no-repeat;
 }
 
@@ -314,7 +314,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(tshirt.jpg);
+    background-image: url(images/tshirt.jpg);
     background-repeat: no-repeat;
 }
 
@@ -322,7 +322,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(mirror.jpg);
+    background-image: url(images/mirror.jpg);
     background-repeat: no-repeat;
 }
 
@@ -330,7 +330,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(shoes.jpg);
+    background-image: url(images/shoes.jpg);
     background-repeat: no-repeat;
 }
 
@@ -338,7 +338,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(g.jpg);
+    background-image: url(images/g.jpg);
     background-repeat: no-repeat;
 }
 
@@ -346,7 +346,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(gg.jpg);
+    background-image: url(images/gg.jpg);
     background-repeat: no-repeat;
 }
 
@@ -354,7 +354,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(o.jpg);
+    background-image: url(images/o.jpg);
     background-repeat: no-repeat;
 }
 
@@ -362,7 +362,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(p.jpg);
+    background-image: url(images/p.jpg);
     background-repeat: no-repeat;
 }
 
@@ -370,7 +370,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(1.jpg);
+    background-image: url(images/1.jpg);
     background-repeat: no-repeat;
 }
 
@@ -378,7 +378,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(2.jpg);
+    background-image: url(images/2.jpg);
     background-repeat: no-repeat;
 }
 
@@ -386,7 +386,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(3.jpg);
+    background-image: url(images/3.jpg);
     background-repeat: no-repeat;
 }
 
@@ -394,7 +394,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(4.jpg);
+    background-image: url(images/4.jpg);
     background-repeat: no-repeat;
 }
 
@@ -402,7 +402,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(jean.jpg);
+    background-image: url(images/jean.jpg);
     background-repeat: no-repeat;
 }
 
@@ -410,7 +410,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(top.jpg);
+    background-image: url(images/top.jpg);
     background-repeat: no-repeat;
 }
 
@@ -418,7 +418,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(dress.jpg);
+    background-image: url(images/dress.jpg);
     background-repeat: no-repeat;
 }
 
@@ -426,7 +426,7 @@ input {
     margin-left: 0px;
     height: 150px;
     width: 155px;
-    background-image: url(shoeseses.jpg);
+    background-image: url(images/shoeseses.jpg);
     background-repeat: no-repeat;
 }
 
